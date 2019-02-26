@@ -89,11 +89,11 @@ $spiketip-arrow-height:   6px;
 // -----------------------------------------
 
 // IE 11 button bugfix
-button[data-spiketip] {
+button[spiketip-title] {
   overflow: visible;
 }
 
-[data-spiketip] {
+[spiketip-title] {
   position: relative; // alt. absolute or fixed
 
   // Fixing iOS Safari event issue.
@@ -106,7 +106,7 @@ button[data-spiketip] {
     background: $spiketip-bg;
     border-radius: 4px;
     color: #fff;
-    content: attr(data-spiketip);
+    content: attr(spiketip-title);
     padding: .5em 1em;
     position: absolute;
     white-space: nowrap;
@@ -122,7 +122,7 @@ button[data-spiketip] {
     z-index: 10;
   }
 
-  &:hover, &[data-spiketip-visible] {
+  &:hover, &[spiketip-visible] {
     &:before,
     &:after {
       @include opacity(1);
@@ -134,20 +134,20 @@ button[data-spiketip] {
     font-family: FontAwesome;
   }
 
-  &[data-spiketip-break] {
+  &[spiketip-break] {
     &:after {
       white-space: pre;
     }
   }
 
-  &[data-spiketip-blunt] {
+  &[spiketip-blunt] {
     &:before,
     &:after {
       @include no-effects();
     }
   }
 
-  &[data-spiketip-pos="top"] {
+  &[spiketip-pos="top"] {
     &:after {
       bottom: 100%;
       left: 50%;
@@ -163,7 +163,7 @@ button[data-spiketip] {
       @include transform-origin(top);
     }
 
-    &:hover, &[data-spiketip-visible] {
+    &:hover, &[spiketip-visible] {
       &:after {
         @include transform(translate(-50%, 0));
       }
@@ -174,7 +174,7 @@ button[data-spiketip] {
     }
   }
 
-  &[data-spiketip-pos="top-left"] {
+  &[spiketip-pos="top-left"] {
     &:after {
       bottom: 100%;
       left: 0;
@@ -190,7 +190,7 @@ button[data-spiketip] {
       @include transform-origin(top);
     }
 
-    &:hover, &[data-spiketip-visible] {
+    &:hover, &[spiketip-visible] {
       &:after {
         @include transform(translate(0, 0));
       }
@@ -201,7 +201,7 @@ button[data-spiketip] {
     }
   }
 
-  &[data-spiketip-pos="top-right"] {
+  &[spiketip-pos="top-right"] {
     &:after {
       bottom: 100%;
       right: 0;
@@ -217,7 +217,7 @@ button[data-spiketip] {
       @include transform-origin(top);
     }
 
-    &:hover, &[data-spiketip-visible] {
+    &:hover, &[spiketip-visible] {
       &:after {
         @include transform(translate(0, 0));
       }
@@ -228,7 +228,7 @@ button[data-spiketip] {
     }
   }
 
-  &[data-spiketip-pos='bottom'] {
+  &[spiketip-pos='bottom'] {
     &:after {
       left: 50%;
       margin-top: 5px + $spiketip-arrow-height;
@@ -245,7 +245,7 @@ button[data-spiketip] {
       @include transform(translate(-50%, -10px));
     }
 
-    &:hover, &[data-spiketip-visible] {
+    &:hover, &[spiketip-visible] {
       &:after {
         @include transform(translate(-50%, 0));
       }
@@ -256,7 +256,7 @@ button[data-spiketip] {
     }
   }
 
-  &[data-spiketip-pos='bottom-left'] {
+  &[spiketip-pos='bottom-left'] {
     &:after {
       left: 0;
       margin-top: 5px + $spiketip-arrow-height;
@@ -273,7 +273,7 @@ button[data-spiketip] {
       @include transform(translate(0, -10px));
     }
 
-    &:hover, &[data-spiketip-visible] {
+    &:hover, &[spiketip-visible] {
       &:after {
         @include transform(translate(0, 0));
       }
@@ -284,7 +284,7 @@ button[data-spiketip] {
     }
   }
 
-  &[data-spiketip-pos='bottom-right'] {
+  &[spiketip-pos='bottom-right'] {
     &:after {
       right: 0;
       margin-top: 5px + $spiketip-arrow-height;
@@ -301,7 +301,7 @@ button[data-spiketip] {
       @include transform(translate(0, -10px));
     }
 
-    &:hover, &[data-spiketip-visible] {
+    &:hover, &[spiketip-visible] {
       &:after {
         @include transform(translate(0, 0));
       }
@@ -312,7 +312,7 @@ button[data-spiketip] {
     }
   }
 
-  &[data-spiketip-pos='left'] {
+  &[spiketip-pos='left'] {
     &:after {
       margin-right: 5px + $spiketip-arrow-height;
       right: 100%;
@@ -329,7 +329,7 @@ button[data-spiketip] {
       @include transform(translate(10px, -50%));
     }
 
-    &:hover, &[data-spiketip-visible] {
+    &:hover, &[spiketip-visible] {
       &:after {
         @include transform(translate(0, -50%));
       }
@@ -341,7 +341,7 @@ button[data-spiketip] {
 
   }
 
-  &[data-spiketip-pos='right'] {
+  &[spiketip-pos='right'] {
     &:after {
 
       left: 100%;
@@ -359,7 +359,7 @@ button[data-spiketip] {
       @include transform(translate(-10px, -50%));
     }
 
-    &:hover, &[data-spiketip-visible] {
+    &:hover, &[spiketip-visible] {
       &:after {
         @include transform(translate(0, -50%));
       }
@@ -370,28 +370,28 @@ button[data-spiketip] {
     }
   }
 
-  &[data-spiketip-length='small'] {
+  &[spiketip-length='small'] {
     &:after {
       white-space: normal;
       width: 80px;
     }
   }
 
-  &[data-spiketip-length='medium'] {
+  &[spiketip-length='medium'] {
     &:after {
       white-space: normal;
       width: 150px;
     }
   }
 
-  &[data-spiketip-length='large'] {
+  &[spiketip-length='large'] {
     &:after {
       white-space: normal;
       width: 260px;
     }
   }
 
-  &[data-spiketip-length='xlarge'] {
+  &[spiketip-length='xlarge'] {
     &:after {
       white-space: normal;
       width: 380px;
@@ -403,7 +403,7 @@ button[data-spiketip] {
     }
   }
 
-  &[data-spiketip-length='fit'] {
+  &[spiketip-length='fit'] {
     &:after {
       white-space: normal;
       width: 100%;
