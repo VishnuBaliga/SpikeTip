@@ -15,10 +15,8 @@ You can play with SpikeTip here: ..link...
 ```
 npm install spiketip-tooltip
 ```
-
-**CDN version (provided by [cdnjs](https://github.com/cdnjs/cdnjs)):**
-```html
-<link rel="stylesheet" href="..link..">
+```js
+import 'spiketip-tooltip/spiketip.min.css'
 ```
 
 **Manually:**
