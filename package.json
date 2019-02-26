@@ -1,0 +1,27 @@
+{
+  "name": "spiketip.css",
+  "version": "1.0.0",
+  "description": "Simple tooltips made of pure CSS",
+  "main": "index.js",
+  "scripts": {
+    "build-all": "npm run build-sass",
+    "build-sass": "node-sass src/spiketip.scss ./spiketip.css && node-sass src/spiketip.scss ./spiketip.min.css --output-style compressed",
+    "watch-sass": "node-sass --watch src/spiketip.scss src/spiketip.css"
+  },
+  "devDependencies": {
+    "node-sass": "^3.4.2"
+  },
+  "keywords": [
+    "tooltip",
+    "css-tooltip",
+    "pure-css-tooltip",
+    "css-only-tooltip",
+    "spiketip"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VishnuBaliga/SpikeTip.git"
+  },
+  "author": "Vishnu Baliga",
+  "license": "ISC"
+}
