@@ -1,5 +1,5 @@
 {
-  "name": "spiketip.css",
+  "name": "spiketip-tooltip",
   "version": "1.0.0",
   "description": "Simple tooltips made of pure CSS",
   "main": "index.js",
@@ -23,5 +23,5 @@
     "url": "git+https://github.com/VishnuBaliga/SpikeTip.git"
   },
   "author": "Vishnu Baliga",
-  "license": "ISC"
+  "license": "MIT"
 }
