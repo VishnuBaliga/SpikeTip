@@ -1,6 +1,6 @@
 {
   "name": "spiketip-tooltip",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Simple tooltips made of pure CSS",
   "main": "index.js",
   "scripts": {

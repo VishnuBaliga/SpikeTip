@@ -336,3 +336,291 @@ button[spiketip-title] {
   [spiketip-title][spiketip-length='fit']:after {
     white-space: normal;
     width: 100%; }
+
+[spiketip-title][spiketip-pos='top'][spiketip-color='success']:after {
+  background: rgba(76, 175, 80, 0.9); }
+
+[spiketip-title][spiketip-pos='top'][spiketip-color='success']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(76, 175, 80, 0.9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='bottom'][spiketip-color='success']:after {
+  background: rgba(76, 175, 80, 0.9); }
+
+[spiketip-title][spiketip-pos='bottom'][spiketip-color='success']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(76, 175, 80, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='left'][spiketip-color='success']:after {
+  background: rgba(76, 175, 80, 0.9); }
+
+[spiketip-title][spiketip-pos='left'][spiketip-color='success']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2212px%22%20height%3D%2236px%22%3E%3Cpath%20fill%3D%22rgba(76, 175, 80, 0.9)%22%20transform%3D%22rotate(-90 18 18)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 6px;
+  height: 18px; }
+
+[spiketip-title][spiketip-pos='right'][spiketip-color='success']:after {
+  background: rgba(76, 175, 80, 0.9); }
+
+[spiketip-title][spiketip-pos='right'][spiketip-color='success']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2212px%22%20height%3D%2236px%22%3E%3Cpath%20fill%3D%22rgba(76, 175, 80, 0.9)%22%20transform%3D%22rotate(90 6 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 6px;
+  height: 18px; }
+
+[spiketip-title][spiketip-pos='top-right'][spiketip-color='success']:after {
+  background: rgba(76, 175, 80, 0.9); }
+
+[spiketip-title][spiketip-pos='top-right'][spiketip-color='success']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(76, 175, 80, 0.9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='top-left'][spiketip-color='success']:after {
+  background: rgba(76, 175, 80, 0.9); }
+
+[spiketip-title][spiketip-pos='top-left'][spiketip-color='success']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(76, 175, 80, 0.9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='bottom-right'][spiketip-color='success']:after {
+  background: rgba(76, 175, 80, 0.9); }
+
+[spiketip-title][spiketip-pos='bottom-right'][spiketip-color='success']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(76, 175, 80, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='bottom-left'][spiketip-color='success']:after {
+  background: rgba(76, 175, 80, 0.9); }
+
+[spiketip-title][spiketip-pos='bottom-left'][spiketip-color='success']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(76, 175, 80, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='top'][spiketip-color='error']:after {
+  background: rgba(244, 67, 54, 0.9); }
+
+[spiketip-title][spiketip-pos='top'][spiketip-color='error']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(244, 67, 54, 0.9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='bottom'][spiketip-color='error']:after {
+  background: rgba(244, 67, 54, 0.9); }
+
+[spiketip-title][spiketip-pos='bottom'][spiketip-color='error']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(244, 67, 54, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='left'][spiketip-color='error']:after {
+  background: rgba(244, 67, 54, 0.9); }
+
+[spiketip-title][spiketip-pos='left'][spiketip-color='error']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2212px%22%20height%3D%2236px%22%3E%3Cpath%20fill%3D%22rgba(244, 67, 54, 0.9)%22%20transform%3D%22rotate(-90 18 18)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 6px;
+  height: 18px; }
+
+[spiketip-title][spiketip-pos='right'][spiketip-color='error']:after {
+  background: rgba(244, 67, 54, 0.9); }
+
+[spiketip-title][spiketip-pos='right'][spiketip-color='error']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2212px%22%20height%3D%2236px%22%3E%3Cpath%20fill%3D%22rgba(244, 67, 54, 0.9)%22%20transform%3D%22rotate(90 6 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 6px;
+  height: 18px; }
+
+[spiketip-title][spiketip-pos='top-right'][spiketip-color='error']:after {
+  background: rgba(244, 67, 54, 0.9); }
+
+[spiketip-title][spiketip-pos='top-right'][spiketip-color='error']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(244, 67, 54, 0.9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='top-left'][spiketip-color='error']:after {
+  background: rgba(244, 67, 54, 0.9); }
+
+[spiketip-title][spiketip-pos='top-left'][spiketip-color='error']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(244, 67, 54, 0.9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='bottom-right'][spiketip-color='error']:after {
+  background: rgba(244, 67, 54, 0.9); }
+
+[spiketip-title][spiketip-pos='bottom-right'][spiketip-color='error']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(244, 67, 54, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='bottom-left'][spiketip-color='error']:after {
+  background: rgba(244, 67, 54, 0.9); }
+
+[spiketip-title][spiketip-pos='bottom-left'][spiketip-color='error']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(244, 67, 54, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='top'][spiketip-color='warning']:after {
+  background: rgba(255, 193, 7, 0.9); }
+
+[spiketip-title][spiketip-pos='top'][spiketip-color='warning']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(255, 193, 7, 0.9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='bottom'][spiketip-color='warning']:after {
+  background: rgba(255, 193, 7, 0.9); }
+
+[spiketip-title][spiketip-pos='bottom'][spiketip-color='warning']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(255, 193, 7, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='left'][spiketip-color='warning']:after {
+  background: rgba(255, 193, 7, 0.9); }
+
+[spiketip-title][spiketip-pos='left'][spiketip-color='warning']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2212px%22%20height%3D%2236px%22%3E%3Cpath%20fill%3D%22rgba(255, 193, 7, 0.9)%22%20transform%3D%22rotate(-90 18 18)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 6px;
+  height: 18px; }
+
+[spiketip-title][spiketip-pos='right'][spiketip-color='warning']:after {
+  background: rgba(255, 193, 7, 0.9); }
+
+[spiketip-title][spiketip-pos='right'][spiketip-color='warning']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2212px%22%20height%3D%2236px%22%3E%3Cpath%20fill%3D%22rgba(255, 193, 7, 0.9)%22%20transform%3D%22rotate(90 6 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 6px;
+  height: 18px; }
+
+[spiketip-title][spiketip-pos='top-right'][spiketip-color='warning']:after {
+  background: rgba(255, 193, 7, 0.9); }
+
+[spiketip-title][spiketip-pos='top-right'][spiketip-color='warning']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(255, 193, 7, 0.9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='top-left'][spiketip-color='warning']:after {
+  background: rgba(255, 193, 7, 0.9); }
+
+[spiketip-title][spiketip-pos='top-left'][spiketip-color='warning']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(255, 193, 7, 0.9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='bottom-right'][spiketip-color='warning']:after {
+  background: rgba(255, 193, 7, 0.9); }
+
+[spiketip-title][spiketip-pos='bottom-right'][spiketip-color='warning']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(255, 193, 7, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='bottom-left'][spiketip-color='warning']:after {
+  background: rgba(255, 193, 7, 0.9); }
+
+[spiketip-title][spiketip-pos='bottom-left'][spiketip-color='warning']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(255, 193, 7, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='top'][spiketip-color='info']:after {
+  background: rgba(3, 169, 244, 0.9); }
+
+[spiketip-title][spiketip-pos='top'][spiketip-color='info']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(3, 169, 244, 0.9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='bottom'][spiketip-color='info']:after {
+  background: rgba(3, 169, 244, 0.9); }
+
+[spiketip-title][spiketip-pos='bottom'][spiketip-color='info']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(3, 169, 244, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='left'][spiketip-color='info']:after {
+  background: rgba(3, 169, 244, 0.9); }
+
+[spiketip-title][spiketip-pos='left'][spiketip-color='info']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2212px%22%20height%3D%2236px%22%3E%3Cpath%20fill%3D%22rgba(3, 169, 244, 0.9)%22%20transform%3D%22rotate(-90 18 18)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 6px;
+  height: 18px; }
+
+[spiketip-title][spiketip-pos='right'][spiketip-color='info']:after {
+  background: rgba(3, 169, 244, 0.9); }
+
+[spiketip-title][spiketip-pos='right'][spiketip-color='info']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2212px%22%20height%3D%2236px%22%3E%3Cpath%20fill%3D%22rgba(3, 169, 244, 0.9)%22%20transform%3D%22rotate(90 6 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 6px;
+  height: 18px; }
+
+[spiketip-title][spiketip-pos='top-right'][spiketip-color='info']:after {
+  background: rgba(3, 169, 244, 0.9); }
+
+[spiketip-title][spiketip-pos='top-right'][spiketip-color='info']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(3, 169, 244, 0.9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='top-left'][spiketip-color='info']:after {
+  background: rgba(3, 169, 244, 0.9); }
+
+[spiketip-title][spiketip-pos='top-left'][spiketip-color='info']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(3, 169, 244, 0.9)%22%20transform%3D%22rotate(0)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='bottom-right'][spiketip-color='info']:after {
+  background: rgba(3, 169, 244, 0.9); }
+
+[spiketip-title][spiketip-pos='bottom-right'][spiketip-color='info']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(3, 169, 244, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }
+
+[spiketip-title][spiketip-pos='bottom-left'][spiketip-color='info']:after {
+  background: rgba(3, 169, 244, 0.9); }
+
+[spiketip-title][spiketip-pos='bottom-left'][spiketip-color='info']:before {
+  background: no-repeat url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http://www.w3.org/2000/svg%22%20width%3D%2236px%22%20height%3D%2212px%22%3E%3Cpath%20fill%3D%22rgba(3, 169, 244, 0.9)%22%20transform%3D%22rotate(180 18 6)%22%20d%3D%22M2.658,0.000%20C-13.615,0.000%2050.938,0.000%2034.662,0.000%20C28.662,0.000%2023.035,12.002%2018.660,12.002%20C14.285,12.002%208.594,0.000%202.658,0.000%20Z%22/%3E%3C/svg%3E");
+  background-size: 100% auto;
+  width: 18px;
+  height: 6px; }

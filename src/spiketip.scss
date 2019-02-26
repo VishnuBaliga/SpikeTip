@@ -8,10 +8,15 @@
 // Variables
 // -----------------------------------------
 
-$spiketip-bg:             fade-out(#111, .1) !default;
-$spiketip-base-size:      10px !default;
-$spiketip-arrow-height:   6px;
+$spiketip-bg: fade-out(#111,0.1) !default; 
 
+$spiketip-base-size: 10px !default;
+$spiketip-arrow-height: 6px;
+
+$spiketip-bg--success: rgba(#4CAF50,0.9);
+$spiketip-bg--error: rgba(#F44336,0.9);
+$spiketip-bg--warning: rgba(#FFC107,0.9);
+$spiketip-bg--info: rgba(#03A9F4,0.9); 
 
 //
 // Mixins
@@ -23,7 +28,7 @@ $spiketip-arrow-height:   6px;
   $height:  6px;
   $width:   18px;
 
-  @if ($position == bottom) {
+  @if ($position == bottom or $position == bottom-left or $position == bottom-right) {
     $degrees: 180 18 6;
     } @else if ($position == left) {
       $degrees: -90 18 18;
@@ -415,4 +420,98 @@ button[spiketip-title] {
       width: 100%;
     }
   }
+}
+
+
+//
+// Colors
+// -----------------------------------------
+
+// [spiketip-title][spiketip-color='error']{
+//   &:after { 
+//     background: $spiketip-bg--error; 
+//   }
+
+//   &:before {
+//     @include svg-arrow($spiketip-bg--error);
+//   }
+// }
+// [spiketip-title][spiketip-pos='right'][spiketip-color='error']{
+//   &:after { 
+//     background: $spiketip-bg--error; 
+//   }
+
+//   &:before {
+//     @include svg-arrow($spiketip-bg--error,'right');
+//   }
+// }
+// [spiketip-title][spiketip-pos='bottom'][spiketip-color='error']{
+//   &:after { 
+//     background: $spiketip-bg--error; 
+//   }
+
+//   &:before {
+//     @include svg-arrow($spiketip-bg--error,'bottom');
+//   }
+// }
+// [spiketip-title][spiketip-pos='bottom-left'][spiketip-color='error']{
+//   &:after { 
+//     background: $spiketip-bg--error; 
+//   } 
+//   &:before {
+//     @include svg-arrow($spiketip-bg--error, 'bottom'); 
+//   }
+// }
+// [spiketip-title][spiketip-pos='left'][spiketip-color='error']{
+//   &:after { 
+//     background: $spiketip-bg--error; 
+//   }
+
+//   &:before {
+//     @include svg-arrow($spiketip-bg--error,'left');
+//   }
+// }
+
+
+
+
+// [spiketip-title][spiketip-color='success']{
+//   &:after { 
+//     background: $spiketip-bg--success; 
+//   }
+
+//   &:before {
+//     @include svg-arrow($spiketip-bg--success);
+//   }
+// }
+
+// [spiketip-title][spiketip-color='warning']{
+//   &:after { 
+//     background: $spiketip-bg--warning; 
+//   }
+
+//   &:before {
+//     @include svg-arrow($spiketip-bg--warning);
+//   }
+// }
+
+
+ 
+
+$colors-list: $spiketip-bg--success $spiketip-bg--error $spiketip-bg--warning $spiketip-bg--info;
+$colors-list-name: 'success','error','warning','info'; 
+$arrow-position: 'top', 'bottom', 'left', 'right','top-right', 'top-left', 'bottom-right', 'bottom-left';
+
+@each $current-color in $colors-list { 
+  $i: index($colors-list, $current-color); 
+    @each $position in $arrow-position { 
+      [spiketip-title][spiketip-pos='#{$position}'][spiketip-color='#{nth($colors-list-name, $i)}']{
+        &:after { 
+          background: $current-color; 
+        } 
+        &:before {
+          @include svg-arrow($current-color,'#{$position}');
+        }
+      } 
+    }
 }

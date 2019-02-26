@@ -40,6 +40,20 @@ For positioning, use `spiketip-pos` attribute with one of the values: `top`, `bo
 <button spiketip-title="Whats up!" spiketip-pos="bottom-left">Hover me!</button>
 <button spiketip-title="Whats up!" spiketip-pos="bottom-right">Hover me!</button>
 ```
+### Color Options
+For positioning, use `spiketip-color` attribute with one of the values: `success`, `error`, `warning`, `info`:
+
+```html
+<button spiketip-title="Whats up!" spiketip-pos="top" spiketip-color="success">Hover me!</button>
+<button spiketip-title="Whats up!" spiketip-pos="left" spiketip-color="error">Hover me!</button>
+<button spiketip-title="Whats up!" spiketip-pos="right" spiketip-color="warning">Hover me!</button>
+<button spiketip-title="Whats up!" spiketip-pos="bottom" spiketip-color="info">Hover me!</button>
+
+<button spiketip-title="Whats up!" spiketip-pos="top-left" spiketip-color="warning">Hover me!</button>
+<button spiketip-title="Whats up!" spiketip-pos="top-right" spiketip-color="info">Hover me!</button>
+<button spiketip-title="Whats up!" spiketip-pos="bottom-left" spiketip-color="success">Hover me!</button>
+<button spiketip-title="Whats up!" spiketip-pos="bottom-right" spiketip-color="error">Hover me!</button>
+```
 
 ### Showing tooltips programatically
 If you want to show tooltips even when user interaction isn't happening, you can simply use the `spiketip-visible` attribute:
