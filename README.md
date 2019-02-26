@@ -5,7 +5,7 @@ SpikeTip lets you add tooltips to elements without JavaScript and in just a few 
 
 ## Demo & Playground
 
-You can play with SpikeTip here: ..link...
+You can play with SpikeTip here: https://jsfiddle.net/Baliga/v72fyh6z/
 
 ## Usage
 
@@ -37,8 +37,8 @@ For positioning, use `spiketip-pos` attribute with one of the values: `top`, `bo
 
 <button spiketip-title="Whats up!" spiketip-pos="top-left">Hover me!</button>
 <button spiketip-title="Whats up!" spiketip-pos="top-right">Hover me!</button>
-<button spiketip-title="Whats up!" spiketip-pos="down-left">Hover me!</button>
-<button spiketip-title="Whats up!" spiketip-pos="down-right">Hover me!</button>
+<button spiketip-title="Whats up!" spiketip-pos="bottom-left">Hover me!</button>
+<button spiketip-title="Whats up!" spiketip-pos="bottom-right">Hover me!</button>
 ```
 
 ### Showing tooltips programatically
