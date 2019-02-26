@@ -381,28 +381,28 @@ button[spiketip-title] {
     }
   }
 
-  &[spiketip-length='small'] {
+  &[spiketip-length='sm'] {
     &:after {
       white-space: normal;
       width: 80px;
     }
   }
 
-  &[spiketip-length='medium'] {
+  &[spiketip-length='md'] {
     &:after {
       white-space: normal;
       width: 150px;
     }
   }
 
-  &[spiketip-length='large'] {
+  &[spiketip-length='lg'] {
     &:after {
       white-space: normal;
       width: 260px;
     }
   }
 
-  &[spiketip-length='xlarge'] {
+  &[spiketip-length='xl'] {
     &:after {
       white-space: normal;
       width: 380px;
@@ -414,90 +414,14 @@ button[spiketip-title] {
     }
   }
 
-  &[spiketip-length='fit'] {
+  &[spiketip-length='auto'] {
     &:after {
       white-space: normal;
       width: 100%;
     }
   }
 }
-
-
-//
-// Colors
-// -----------------------------------------
-
-// [spiketip-title][spiketip-color='error']{
-//   &:after { 
-//     background: $spiketip-bg--error; 
-//   }
-
-//   &:before {
-//     @include svg-arrow($spiketip-bg--error);
-//   }
-// }
-// [spiketip-title][spiketip-pos='right'][spiketip-color='error']{
-//   &:after { 
-//     background: $spiketip-bg--error; 
-//   }
-
-//   &:before {
-//     @include svg-arrow($spiketip-bg--error,'right');
-//   }
-// }
-// [spiketip-title][spiketip-pos='bottom'][spiketip-color='error']{
-//   &:after { 
-//     background: $spiketip-bg--error; 
-//   }
-
-//   &:before {
-//     @include svg-arrow($spiketip-bg--error,'bottom');
-//   }
-// }
-// [spiketip-title][spiketip-pos='bottom-left'][spiketip-color='error']{
-//   &:after { 
-//     background: $spiketip-bg--error; 
-//   } 
-//   &:before {
-//     @include svg-arrow($spiketip-bg--error, 'bottom'); 
-//   }
-// }
-// [spiketip-title][spiketip-pos='left'][spiketip-color='error']{
-//   &:after { 
-//     background: $spiketip-bg--error; 
-//   }
-
-//   &:before {
-//     @include svg-arrow($spiketip-bg--error,'left');
-//   }
-// }
-
-
-
-
-// [spiketip-title][spiketip-color='success']{
-//   &:after { 
-//     background: $spiketip-bg--success; 
-//   }
-
-//   &:before {
-//     @include svg-arrow($spiketip-bg--success);
-//   }
-// }
-
-// [spiketip-title][spiketip-color='warning']{
-//   &:after { 
-//     background: $spiketip-bg--warning; 
-//   }
-
-//   &:before {
-//     @include svg-arrow($spiketip-bg--warning);
-//   }
-// }
-
-
  
-
 $colors-list: $spiketip-bg--success $spiketip-bg--error $spiketip-bg--warning $spiketip-bg--info;
 $colors-list-name: 'success','error','warning','info'; 
 $arrow-position: 'top', 'bottom', 'left', 'right','top-right', 'top-left', 'bottom-right', 'bottom-left';

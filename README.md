@@ -55,6 +55,17 @@ For positioning, use `spiketip-color` attribute with one of the values: `success
 <button spiketip-title="Whats up!" spiketip-pos="bottom-right" spiketip-color="error">Hover me!</button>
 ```
 
+### Size
+For sizing, use `spiketip-length` attribute with one of the values: `sm`, `md`, `lg`, `xl`, `auto`:
+
+```html
+<button spiketip-title="Whats up!" spiketip-pos="top" spiketip-length="sm">Hover me!</button>
+<button spiketip-title="Whats up!" spiketip-pos="left" spiketip-length="md">Hover me!</button>
+<button spiketip-title="Whats up!" spiketip-pos="right" spiketip-length="lg">Hover me!</button>
+<button spiketip-title="Whats up!" spiketip-pos="bottom" spiketip-length="xl">Hover me!</button> 
+<button spiketip-title="Whats up!" spiketip-pos="bottom" spiketip-length="auto">Hover me!</button> 
+```
+
 ### Showing tooltips programatically
 If you want to show tooltips even when user interaction isn't happening, you can simply use the `spiketip-visible` attribute:
 

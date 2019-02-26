@@ -317,23 +317,23 @@ button[spiketip-title] {
     -moz-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
     transform: translate(0, -50%); }
-  [spiketip-title][spiketip-length='small']:after {
+  [spiketip-title][spiketip-length='sm']:after {
     white-space: normal;
     width: 80px; }
-  [spiketip-title][spiketip-length='medium']:after {
+  [spiketip-title][spiketip-length='md']:after {
     white-space: normal;
     width: 150px; }
-  [spiketip-title][spiketip-length='large']:after {
+  [spiketip-title][spiketip-length='lg']:after {
     white-space: normal;
     width: 260px; }
-  [spiketip-title][spiketip-length='xlarge']:after {
+  [spiketip-title][spiketip-length='xl']:after {
     white-space: normal;
     width: 380px; }
     @media screen and (max-width: 768px) {
-      [spiketip-title][spiketip-length='xlarge']:after {
+      [spiketip-title][spiketip-length='xl']:after {
         white-space: normal;
         width: 90vw; } }
-  [spiketip-title][spiketip-length='fit']:after {
+  [spiketip-title][spiketip-length='auto']:after {
     white-space: normal;
     width: 100%; }
 
