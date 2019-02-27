@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>SpikeTip - Tooltips</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link href="./spiketip.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    
+ 
+                <div class="banner">
+
+                        <div class="container">
+                                <div class="row banner-content">
+                                    <div class="col-md-12">
+                                            <img class="main-logo" src="./img/spiketip-logo.png" alt="SpikeTip Logo" />
+                                            <h1>Simple tooltips made of pure CSS!</h1>
+                                            <p>SpikeTip lets you add tooltips to elements <strong>without JavaScript</strong> and in just a few lines of CSS.</p>
+                                            <button class="btn btn-action">Github Project</button>
+                                            <button class="btn btn-action">Download CSS</button>
+                                    </div>
+                                </div>
+                            </div>
+                        
+                    <svg style="pointer-events: none" class="wave" width="100%" height="50px" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 75">
+                        <defs>
+                        <style>
+                                .a {
+                                  fill: none;
+                                }
+                        
+                                .b {
+                                  clip-path: url(#a);
+                                }
+                        
+                                .c,
+                                .d {
+                                  fill: #f9f9fc;
+                                }
+                        
+                                .d {
+                                  opacity: 0.5;
+                                  isolation: isolate;
+                                }
+                              </style>
+                        <clipPath id="a">
+                        <rect class="a" width="1920" height="75"></rect>
+                        </clipPath>
+                        </defs>
+                        <title>wave</title>
+                        <g class="b">
+                        <path class="c" d="M1963,327H-105V65A2647.49,2647.49,0,0,1,431,19c217.7,3.5,239.6,30.8,470,36,297.3,6.7,367.5-36.2,642-28a2511.41,2511.41,0,0,1,420,48"></path>
+                        </g>
+                        <g class="b">
+                        <path class="d" d="M-127,404H1963V44c-140.1-28-343.3-46.7-566,22-75.5,23.3-118.5,45.9-162,64-48.6,20.2-404.7,128-784,0C355.2,97.7,341.6,78.3,235,50,86.6,10.6-41.8,6.9-127,10"></path>
+                        </g>
+                        <g class="b">
+                        <path class="d" d="M1979,462-155,446V106C251.8,20.2,576.6,15.9,805,30c167.4,10.3,322.3,32.9,680,56,207,13.4,378,20.3,494,24"></path>
+                        </g>
+                        <g class="b">
+                        <path class="d" d="M1998,484H-243V100c445.8,26.8,794.2-4.1,1035-39,141-20.4,231.1-40.1,378-45,349.6-11.6,636.7,73.8,828,150"></path>
+                        </g>
+                        </svg>
+                </div> 
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="page-header">
+                            <h1>Positioning <small>your tooltips</small></h1>
+                    </div>
+                    <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Position</th> 
+                                    <th>Code</th> 
+                                    <th>Demo</th> 
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Top</td>
+                                    <td><code>spiketip-pos="top"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="Whats up!" spiketip-pos="top">Hover me!</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Bottom</td>
+                                    <td><code>spiketip-pos="bottom"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="Whats up!" spiketip-pos="bottom">Hover me!</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Right</td>
+                                    <td><code>spiketip-pos="right"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="Whats up!" spiketip-pos="right">Hover me!</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Left</td>
+                                    <td><code>spiketip-pos="left"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="Whats up!" spiketip-pos="left">Hover me!</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Top-Right</td>
+                                    <td><code>spiketip-pos="top-right"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="Whats up!" spiketip-pos="top-right">Hover me!</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Top-Left</td>
+                                    <td><code>spiketip-pos="top-left"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="Whats up!" spiketip-pos="top-left">Hover me!</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Bottom-Right</td>
+                                    <td><code>spiketip-pos="bottom-right"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="Whats up!" spiketip-pos="bottom-left">Hover me!</button></td>
+                                </tr>
+                                <tr>
+                                    <td>Bottom-Left</td>
+                                    <td><code>spiketip-pos="bottom-right"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="Whats up!" spiketip-pos="bottom-right">Hover me!</button></td>
+                                </tr>
+                            </tbody>
+                          </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="page-header">
+                            <h1>Color Options <small>for your tooltips</small></h1>
+                    </div>
+                    <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Color</th> 
+                                    <th>Code</th> 
+                                    <th>Demo</th> 
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Success</td>
+                                    <td><code>spiketip-color="success"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="Whats up!" spiketip-color="success" spiketip-pos="top">Hover me!</button></td>
+                                </tr> 
+                                <tr>
+                                    <td>Error</td>
+                                    <td><code>spiketip-color="error"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="Whats up!" spiketip-color="error" spiketip-pos="top">Hover me!</button></td>
+                                </tr> 
+                                <tr>
+                                    <td>Warning</td>
+                                    <td><code>spiketip-color="warning"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="Whats up!" spiketip-color="warning" spiketip-pos="top">Hover me!</button></td>
+                                </tr> 
+                                <tr>
+                                    <td>info</td>
+                                    <td><code>spiketip-color="info"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="Whats up!" spiketip-color="info" spiketip-pos="top">Hover me!</button></td>
+                                </tr> 
+                            </tbody>
+                          </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                    <div class="page-header">
+                            <h1>Size <small>your tooltips</small></h1>
+                    </div>
+                    <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th>Size</th> 
+                                    <th>Code</th> 
+                                    <th>Demo</th> 
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Small</td>
+                                    <td><code>spiketip-length="sm"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="He was once a little green slab of clay. Gumby!" spiketip-length="sm" spiketip-pos="top">Hover me!</button></td>
+                                </tr> 
+                                <tr>
+                                    <td>Medium</td>
+                                    <td><code>spiketip-length="md"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="He was once a little green slab of clay. Gumby! You should see what Gumby can do today. Gumby!" spiketip-length="md" spiketip-pos="top">Hover me!</button></td>
+                                </tr> 
+                                <tr>
+                                    <td>Large</td>
+                                    <td><code>spiketip-length="lg"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="He was once a little green slab of clay. Gumby! You should see what Gumby can do today. Gumby! He can walk into any book, with his pony pal Pokey, too. If you've got a heart then Gumby's a part of you." spiketip-length="lg" spiketip-pos="top">Hover me!</button></td>
+                                </tr> 
+                                <tr>
+                                    <td>Extra Large</td>
+                                    <td><code>spiketip-length="xl"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="He was once a little green slab of clay. Gumby! You should see what Gumby can do today. Gumby! He can walk into any book, with his pony pal Pokey, too. If you've got a heart then Gumby's a part of you." spiketip-length="xl" spiketip-pos="top">Hover me!</button></td>
+                                </tr> 
+                                <tr>
+                                    <td>Auto</td>
+                                    <td><code>spiketip-length="auto"</code></td>
+                                    <td><button class="btn btn-demo" spiketip-title="He was once a little green slab of clay. Gumby! You should see what Gumby can do today. Gumby! He can walk into any book, with his pony pal Pokey, too. If you've got a heart then Gumby's a part of you." spiketip-length="auto" spiketip-pos="top">Hover me!</button></td>
+                                </tr> 
+                                
+                            </tbody>
+                          </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

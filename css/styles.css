@@ -1,0 +1,68 @@
+/* Global styles */
+html,body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:#F8F9FA;
+    font-weight: 400;
+}
+
+/* Banner styles */
+.banner{
+    background-color: #ffc107;
+    min-height: 350px;
+    width: 100vw;
+    position: relative;
+}
+.banner-content{
+    padding: 7.5% 0 8% 0;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .banner-content{
+        padding: 7.5% 0 15% 0;
+    }
+  }
+
+.banner-content h1{
+    color: #fff;;
+    margin:0;
+    font-weight: 700;
+}
+.banner-content p{
+    color: #fff;;
+    margin:5px 0;
+    font-weight: 400;
+}
+.main-logo
+{
+    height: 75px;
+}
+.banner svg.wave {
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+}
+.banner .btn-action{
+    border-radius: 2px;
+    padding: 10px 15px;
+    margin: 25px auto;
+
+}
+.btn-demo{
+    background-color: #ffc107;;
+    border-radius: 2px;
+    min-width: 150px;
+    color: #fff;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .btn-demo{ 
+        min-width: 100px; 
+    }
+  }
+
+.btn-demo:hover{color: #fff;}
+
+
+.table.table-striped{
+    table-layout: fixed;
+}

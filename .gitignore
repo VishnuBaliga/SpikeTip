@@ -1,4 +1,2 @@
 package-lock.json
-/node_modules
-*.html
-test.html
+/node_modules 
