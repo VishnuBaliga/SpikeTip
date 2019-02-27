@@ -79,7 +79,9 @@ html,body{
 
 /* How to Use */
 .how-to-use pre{
-    padding: 15px 10px; 
+    padding: 15px 10px;  
+}
+.how-to-use pre.mb{ 
     margin-bottom: 30px;
 }
 
