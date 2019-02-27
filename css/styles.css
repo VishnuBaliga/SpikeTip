@@ -63,6 +63,15 @@ html,body{
 
 .btn-demo:hover{color: #fff;}
 
+.banner-badges{
+    display: flex; 
+    align-items: flex-start;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.banner-badges span{
+    margin-right: 5px;
+}
 
 .table.table-striped{
     table-layout: fixed;
