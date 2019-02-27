@@ -45,10 +45,11 @@ html,body{
     border-radius: 2px;
     padding: 10px 15px;
     margin: 25px auto;
+    border: none;
 
 }
 .btn-demo{
-    background-color: #ffc107;;
+    background-color: #ffc107;
     border-radius: 2px;
     min-width: 150px;
     color: #fff;
@@ -66,3 +67,15 @@ html,body{
 .table.table-striped{
     table-layout: fixed;
 }
+
+footer{
+    margin-top: 5%;
+    padding: 2% 0;
+    background-color:  #ffc107;
+}
+footer p,footer a{
+    color: #fff;
+    text-align: center;
+    margin:0;
+}
+footer a:hover{color: #fff;}
