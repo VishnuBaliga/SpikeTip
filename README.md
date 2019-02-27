@@ -5,6 +5,8 @@ SpikeTip lets you add tooltips to elements without JavaScript and in just a few 
 
 ## Demo & Playground
 
+You can check more exaples at the website: https://vishnubaliga.github.io/SpikeTip/
+
 You can play with SpikeTip here: https://jsfiddle.net/Baliga/v72fyh6z/
 
 ## Usage
