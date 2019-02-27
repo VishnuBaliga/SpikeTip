@@ -77,6 +77,15 @@ html,body{
     table-layout: fixed;
 }
 
+/* How to Use */
+.how-to-use pre{
+    padding: 15px 10px; 
+    margin-bottom: 30px;
+}
+
+
+/* Footer */
+
 footer{
     margin-top: 5%;
     padding: 2% 0;
