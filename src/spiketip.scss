@@ -1,6 +1,7 @@
 //
 // Author: Vishnu Baliga (Twitter: https://twitter.com/Vishnu_Baliga)
-// Github: https://github.com/VishnuBaliga/SpikeTip
+// Github-Repo: https://github.com/VishnuBaliga/SpikeTip
+// Website: https://vishnubaliga.github.io/SpikeTip/
 // License: MIT
 // -----------------------------------------
 
@@ -8,15 +9,15 @@
 // Variables
 // -----------------------------------------
 
-$spiketip-bg: fade-out(#111,0.1) !default; 
 
 $spiketip-base-size: 10px !default;
 $spiketip-arrow-height: 6px;
 
-$spiketip-bg--success: rgba(#4CAF50,0.9);
-$spiketip-bg--error: rgba(#F44336,0.9);
-$spiketip-bg--warning: rgba(#FFC107,0.9);
-$spiketip-bg--info: rgba(#03A9F4,0.9); 
+$spiketip-bg: fade-out(#111,0.1) !default; 
+$spiketip-bg--success: rgba(#4CAF50,0.9); //success-color
+$spiketip-bg--error: rgba(#F44336,0.9); //error-color
+$spiketip-bg--warning: rgba(#FFC107,0.9); //warning-color
+$spiketip-bg--info: rgba(#03A9F4,0.9); //info-color
 
 //
 // Mixins
@@ -107,8 +108,7 @@ button[spiketip-title] {
 [spiketip-title] {
   position: relative; // alt. absolute or fixed
 
-  // Fixing iOS Safari event issue.
-  // More info at: https://goo.gl/w8JF4W
+  // Fixing iOS Safari event issue. 
   cursor: pointer;
 
   &:after {
@@ -381,6 +381,9 @@ button[spiketip-title] {
     }
   }
 
+
+
+// Size options - 'sm','md','lg','xl', 'auto'  
   &[spiketip-length='sm'] {
     &:after {
       white-space: normal;
@@ -421,6 +424,9 @@ button[spiketip-title] {
     }
   }
 }
+
+
+// Color options - 'success','error','warning','info'
  
 $colors-list: $spiketip-bg--success $spiketip-bg--error $spiketip-bg--warning $spiketip-bg--info;
 $colors-list-name: 'success','error','warning','info'; 
