@@ -1,9 +1,13 @@
 # SpikeTip Tooltip
 
+[![npm version](https://badge.fury.io/js/spiketip-tooltip.svg)](https://badge.fury.io/js/spiketip-tooltip)
+
 ## Simple tooltips made of pure CSS
 SpikeTip lets you add tooltips to elements without JavaScript and in just a few lines of CSS.
 
 ## Demo & Playground
+
+You can check more exaples at the website: https://vishnubaliga.github.io/SpikeTip/
 
 You can play with SpikeTip here: https://jsfiddle.net/Baliga/v72fyh6z/
 
