@@ -15,7 +15,7 @@ You can play with SpikeTip here: https://jsfiddle.net/Baliga/v72fyh6z/
 
 ### Installation
 
-**Using npm:**
+**Using npm: (prerequisites: css-loader, style-loader)**
 ```
 npm install spiketip-tooltip
 ```
@@ -28,6 +28,12 @@ Simply download `spiketip.min.css` from this repo and add it to your HTML. e.g.
 
 ```html
 <link rel="stylesheet" href="path/to/spiketip.min.css">
+```
+
+Alternatively, you can use it via CDN (provided by jsdelivr):
+
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spiketip-tooltip@1.0.6/spiketip.min.css">
 ```
 
 ### Positioning
