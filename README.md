@@ -3,7 +3,7 @@
 [![npm version](https://badge.fury.io/js/spiketip-tooltip.svg)](https://badge.fury.io/js/spiketip-tooltip)
 
 ## Sleek tooltips spun from CSS
-Javascript? Nah. Create effortless tooltips that breathes CSS!
+Javascript? Nah. Create effortless tooltips that breathe CSS!
 No Javascript. Just the good old CSS.
 
 ## Demo & Playground
