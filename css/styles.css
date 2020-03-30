@@ -98,4 +98,17 @@ footer p,footer a{
     text-align: center;
     margin:0;
 }
-footer a:hover{color: #fff;}
+footer a{
+    color: #282828; 
+    border-bottom: 1px dotted #282828;
+    transition:all .2s ease-in-out;
+    text-decoration:none;
+    font-weight:bold;
+    margin:0 3px;
+    
+}
+footer a:hover,footer a:active, footer a:focus{
+    color: #c7254e; 
+    border-bottom:1px solid #c7254e; 
+    text-decoration:none;
+}
