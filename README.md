@@ -92,4 +92,4 @@ If you want to show tooltips even when user interaction isn't happening, you can
 
 ### Credits
 
-Made by Vishnu Baliga ([@Vishnu_Baliga](https://twitter.com/Vishnu_Baliga))
+Developed with ❤ by ([Vishnu_Baliga](https://vishnubaliga.com/))
