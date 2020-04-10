@@ -3,7 +3,7 @@
   "version": "1.1.2",
   "description": "Simple tooltips made of pure CSS",
   "main": "index.js",
-  "homepage": "https://spiketip.com/",
+  "homepage": "https://spiketip.com",
   "scripts": {
     "build-all": "npm run build-sass",
     "build-sass": "node-sass src/spiketip.scss ./spiketip.css && node-sass src/spiketip.scss ./spiketip.min.css --output-style compressed",
