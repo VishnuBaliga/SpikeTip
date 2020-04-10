@@ -8,7 +8,7 @@ No Javascript. Just the good old CSS.
 
 ## Demo & Playground
 
-You can check more exaples at the website: https://spiketip.com/
+You can check more exaples at the website: https://spiketip.com
 
 You can play with SpikeTip here: https://jsfiddle.net/Baliga/v72fyh6z/
 
@@ -34,7 +34,7 @@ Simply download `spiketip.min.css` from this repo and add it to your HTML. e.g.
 Alternatively, you can use it via CDN (provided by jsdelivr):
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spiketip-tooltip@1.0.6/spiketip.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spiketip-tooltip@1.1.1/spiketip.min.css">
 ```
 
 ### Positioning

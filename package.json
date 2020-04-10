@@ -1,8 +1,9 @@
 {
   "name": "spiketip-tooltip",
-  "version": "1.0.9",
+  "version": "1.1.1",
   "description": "Simple tooltips made of pure CSS",
   "main": "index.js",
+  "homepage": "https://spiketip.com/",
   "scripts": {
     "build-all": "npm run build-sass",
     "build-sass": "node-sass src/spiketip.scss ./spiketip.css && node-sass src/spiketip.scss ./spiketip.min.css --output-style compressed",
