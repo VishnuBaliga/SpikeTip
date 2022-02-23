@@ -8,7 +8,7 @@ No Javascript. Just the good old CSS.
 
 ## Demo & Playground
 
-You can check more exaples at the website: https://spiketip.com
+You can check more exaples at the website: https://spiketip.netlify.app
 
 You can play with SpikeTip here: https://jsfiddle.net/Baliga/v72fyh6z/
 
